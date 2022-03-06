@@ -26,14 +26,14 @@ document.addEventListener("DOMContentLoaded", function(e){
         description = "";
         
         for(let j =0; j<5; j++){
-            description += `<p>${ingredientsInfo.description[j]}</p><br>`
+            description += `<li>${ingredientsInfo.description[j]}</li><br>`
         }
 
         htmlContentToAppend += `
         <div class="carousel-item">
-            <div class="bg-success" style="height: 100vh;">
+            <div class="bGround" style="height: 100vh;">
                 <h1>${ingredientsInfo.name}</h1>
-                ${description}
+                <p>${description}</p>
             </div>
         </div>
         `
