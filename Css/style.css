@@ -23,9 +23,10 @@ ul {
     margin-left: auto;
 }
 
-header {
+#header {
 
     margin-top: 80px;
+    
     
 }
 
@@ -56,7 +57,10 @@ header {
 
 #testimonial .card {
     height: 550px;
-    background: #ffdad8;
+    background: #fff;
+    border-color: rgb(193,6,48);
+    border-style: solid;
+    border-width: medium;
 }
 
 .bGround {
